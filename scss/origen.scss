@@ -1,0 +1,41 @@
+h2{
+    background: #ff7f50;
+    }
+    
+h3{
+    background: yellow;
+    }
+
+footer{
+    background: #444;
+    font-size: 28px;
+    color: bisque;
+    padding: 9px;
+    margin: 1%;
+
+}
+
+.btn--red{
+    border-radius: 5px;
+    width: 55px;
+    height: 20px;
+    color: white;
+    background-color: red
+}
+
+.boton{
+    border: solid;
+    border-radius: 10px;
+}
+
+.botonTres{
+    @extend .boton;
+    background-color: blue;
+    
+}
+
+p {
+    width: 720px;
+}
+
+

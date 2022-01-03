@@ -1,0 +1,104 @@
+*{
+margin: 0% ;
+padding: 5px;
+box-sizing: border-box;
+
+}
+.titulo{
+    background-color: azure;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    background: lightblue;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.contenedor{
+    width: 98%;
+    height: auto;
+    
+    
+}
+
+
+h1{
+    color: rgb(189, 45, 100);
+    border: 2px solid rgb(189, 45, 100);
+}
+
+.bienvenidos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+    
+}
+.uno{
+    color: rgb(189, 45, 100);
+    
+}
+li{
+    text-align-last: center;
+    list-style: none;
+    display: inline;
+    
+}
+/*menu*/
+.menu a{
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 2px;
+    color: blanchedalmond; 
+}
+
+.menu a:hover{
+    border: 2px solid blanchedalmond;
+}
+h2{
+    text-align: center;
+    color: rgb(189, 45, 100);
+      
+}
+
+h3{
+    text-align: center;
+    color: rgb(189, 45, 100);
+    font-family: 'Rubik', sans-serif; 
+}
+ 
+
+img{
+    width: 370px;
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+p{
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 18px;
+    background-color: gray;
+    padding: 3%;
+
+}
+
+
+.flex-contenedor{ 
+    display: flex ;
+    margin: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}    
+     
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+}

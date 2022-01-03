@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(189, 45, 100);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    
+    
+}
+
+.gallery__img{
+    width: 300px;
+    border: solid black;
+    border-radius:2px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+a{
+    width: 100%;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 2px;
+    color: blanchedalmond;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+}

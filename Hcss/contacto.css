@@ -1,0 +1,40 @@
+*{
+    margin: 0% ;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    color: rgb(189, 45, 100);
+    animation-name: animacion;
+    animation-duration: 3s;
+    
+
+}
+
+@keyframes animacion{
+        0%{
+           transform: scale(.3);
+        }
+} 
+
+body{
+    background-color: lightblue;
+    background-image: repeating-linear-gradient( to top, rgb(108, 108, 206), lightblue);
+}
+
+#menuContacto{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-family:'Rubik', sans-serif;
+}
